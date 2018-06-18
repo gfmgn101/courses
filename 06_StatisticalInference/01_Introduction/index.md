@@ -19,7 +19,7 @@ mode        : selfcontained # {standalone, draft}
 Statistical inference is the process of drawing formal conclusions from
 data. 
 
-In our class, we wil define formal statistical inference as settings where one wants to infer facts about a population using noisy
+In our class, we will define formal statistical inference as settings where one wants to infer facts about a population using noisy
 statistical data where uncertainty must be accounted for.
 
 ---
@@ -39,9 +39,9 @@ uncertainty in the process to produce a good guess at who will win?
 
 ---
 
-## Motivating example: is hormone replacement therapy effective? 
+## Motivating example: is hormone replacement therapy (HRT) effective? 
 
-A large clinical trial (the Women’s Health Initiative) published results in 2002 that contradicted prior evidence on the efficacy of hormone replacement therapy for post menopausal women and suggested a negative impact of HRT for several key health outcomes. **Based on a statistically based protocol, the study was stopped early due an excess number of negative events.**
+A large clinical trial (the Women’s Health Initiative (WHI)) published results in 2002 that contradicted prior evidence on the efficacy of hormone replacement therapy for post menopausal women and suggested a negative impact of HRT for several key health outcomes. **Based on a statistically based protocol, the study was stopped early due an excess number of negative events.**
 
 Here's there's two inferential problems. 
 
@@ -49,7 +49,7 @@ Here's there's two inferential problems.
 2. How long should we continue the trial in the presence of contrary
 evidence?
 
-See WHI writing group paper JAMA 2002, Vol 288:321 - 333. for the paper and Steinkellner et al. Menopause 2012, Vol 19:616 621 for adiscussion of the long term impacts
+See WHI writing group paper JAMA 2002, Vol 288:321 - 333. for the paper and Steinkellner et al. Menopause 2012, Vol 19:616 621 for a discussion of the long term impacts.
 
 ---
 
@@ -72,7 +72,7 @@ to use data to create general conclusions about a population.
   - Are there known and observed, known and unobserved or unknown and unobserved variables that contaminate our conclusions?
   - Is there systematic bias created by missing data or the design or conduct of the study?
   - What randomness exists in the data and how do we use or adjust for it? Here randomness can either be explicit via randomization
-or random sampling, or implicit as the aggregation of many complex uknown processes.
+or random sampling, or implicit as the aggregation of many complex unknown processes.
   - Are we trying to estimate an underlying mechanistic model of phenomena under study?
 - Statistical inference requires navigating the set of assumptions and
 tools and subsequently thinking about how to draw conclusions from data.
@@ -98,7 +98,7 @@ a population quantity (the proportion of people who will
 2. Random sampling: concerned with obtaining data that is representative 
 of the population of interest
 3. Sampling models: concerned with creating a model for the sampling
-process, the most common is so called "iid".
+process, the most common is so called "iid", or independent and identically distributed sampling.
 4. Hypothesis testing: concerned with decision making in the presence of uncertainty
 5. Confidence intervals: concerned with quantifying uncertainty in 
 estimation
@@ -136,7 +136,7 @@ Data scientists tend to fall within shades of gray of these and various other sc
 * In this class, we will primarily focus on basic sampling models, 
 basic probability models and frequency style analyses
 to create standard inferences. 
-* Being data scientists,  we will also consider some inferential strategies that  rely heavily on the observed data, such as permutation testing
+* Being data scientists,  we will also consider some inferential strategies that rely heavily on the observed data, such as permutation testing
 and bootstrapping.
 * As probability modeling will be our starting point, we first build
 up basic probability.
@@ -149,7 +149,7 @@ on "finite population statistics". Used heavily in polling and
 sample surveys.
 2. Explicit use of randomization in inferences: look in references
 on "causal inference" especially in clinical trials.
-3. Bayesian probability and Bayesian statistics: look for basic itroductory books (there are many).
+3. Bayesian probability and Bayesian statistics: look for basic introductory books (there are many).
 4. Missing data: well covered in biostatistics and econometric
 references; look for references to "multiple imputation", a popular tool for
 addressing missing data.
